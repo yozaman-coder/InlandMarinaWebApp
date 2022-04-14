@@ -1,0 +1,42 @@
+﻿@model InlandMarinaData.Lease
+
+@{
+    ViewData["Title"] = "Lease";
+}
+
+<h1>Lease this slip</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" style="display: table">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" style="display: table-row">
+                <label class="control-label">Dock ID</label>
+                <input style="display: table-cell" class="form-control" readonly="@true" value="@ViewBag.Dock.ID" />
+                <span asp-validation-for="ID" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display: table-row">
+                <label asp-for="SlipID" class="control-label">Slip ID</label>
+                <input style="display: table-cell" asp-for="SlipID" class="form-control" readonly="@true" value="@ViewBag.Slip.ID" />
+                <span asp-validation-for="SlipID" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display: table-row">
+                <label asp-for="CustomerID" class="control-label"></label>
+                <input style="display: table-cell" asp-for="CustomerID" class="form-control" readonly="@true" value="@ViewBag.CustomerID" />
+                <span asp-validation-for="CustomerID" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="display: table-row">
+                <h6 class="m-3"><u>Slip Information</u></h6>
+            </div>
+            <div class="form-group" style="display: table-row">
+                <p>Dock Name: @ViewBag.Dock.Name</p>
+                <p>Width: @ViewBag.Slip.Width</p>
+                <p>Length: @ViewBag.Slip.Length</p>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Confirm" class="btn btn-primary m-1" />
+                <a asp-action="Index" class="btn btn-secondary m-1">Cancel lease</a>
+            </div>
+        </form>
+    </div>
+</div>

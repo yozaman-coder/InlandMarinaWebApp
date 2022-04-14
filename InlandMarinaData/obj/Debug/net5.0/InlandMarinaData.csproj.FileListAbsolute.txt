@@ -1,0 +1,15 @@
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\bin\Debug\net5.0\InlandMarinaData.deps.json
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\bin\Debug\net5.0\InlandMarinaData.runtimeconfig.json
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\bin\Debug\net5.0\InlandMarinaData.runtimeconfig.dev.json
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\bin\Debug\net5.0\InlandMarinaData.dll
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\bin\Debug\net5.0\ref\InlandMarinaData.dll
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\bin\Debug\net5.0\InlandMarinaData.pdb
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.csproj.AssemblyReference.cache
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.AssemblyInfoInputs.cache
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.AssemblyInfo.cs
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.csproj.CoreCompileInputs.cache
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.dll
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\ref\InlandMarinaData.dll
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.pdb
+C:\Users\BibBibsRig\source\repos\InlandMarinaWebApp\InlandMarinaData\obj\Debug\net5.0\InlandMarinaData.genruntimeconfig.cache

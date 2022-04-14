@@ -1,0 +1,34 @@
+﻿@model IEnumerable<InlandMarinaData.Slip>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center m-2"><u>Slip List</u></h1>
+<h6 class="m-2"><u>Sort by Docks </u></h6>
+<div class="form-group">
+    <select id="uxDocks" asp-items="@ViewBag.Docks" class="form-control">
+    </select>
+</div>
+
+<div id="uxDisplay">
+    @await Component.InvokeAsync("SlipsByDock", "All")
+</div>
+
+@section Scripts{ 
+    <script>
+        $(document).ready(function () {
+            $("#uxDocks").change(function () {
+                var dockID = $("#uxDocks").val();
+
+                $.ajax({
+                    method: 'GET',
+                    url: '/Slip/GetUnleasedSlipsByDock',
+                    data: { id: dockID }
+                }).done(function (result, statusText, xhdr) {
+                    $("#uxDisplay").html(result);
+                });
+            });
+        });
+    </script>
+}
